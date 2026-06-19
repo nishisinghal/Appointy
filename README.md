@@ -109,37 +109,6 @@
   - **Razorpay Integration**
 - Ensures a secure and smooth payment experience for users.
 
-## 🌐 Project Setup
-
-To set up and run this project locally:
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/appointy.git
-   cd appointy
-   ```
-
-2. **Install Dependencies**:
-   ```bash
-   npm install
-   cd client
-   npm install
-   ```
-
-3. **Environment Variables**:
-   - Create a `.env` file in the root directory and add the following:
-     ```env
-     MONGO_URI=your_mongodb_connection_string
-     JWT_SECRET=your_jwt_secret
-     STRIPE_API_KEY=your_stripe_api_key
-     RAZORPAY_API_KEY=your_razorpay_api_key
-     ```
-
-4. **Run the Application**:
-   ```bash
-   npm run dev
-   ```
-
 ## 📦 Folder Structure
 
 ```plaintext
